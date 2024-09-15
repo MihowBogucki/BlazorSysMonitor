@@ -1,0 +1,6 @@
+﻿services:
+  blazorsysmonitor:
+    image: blazorsysmonitor
+    build:
+      context: .
+      dockerfile: BlazorSysMonitor/Dockerfile
